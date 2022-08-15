@@ -25,7 +25,7 @@ Base_URL is the base url of every request url.
 |   Get List of events   |        /events?id=:eventId       | GET    |          \_\_        | OK          |
 |       with its id      |
 |   Get List of events   |          /events?type=latest&    | GET    |          \_\_        | OK          |
-|   with pagination      |           limit=5 &page          |
+|   with pagination      |           limit=5&page=1         |
 |    Update event        |        /events/:id               | PUT    |  Event Object        | CREATED     |
 |   Remove event         |        /events/:id               | DELETE |          \_\_        | OK          |
 
